@@ -1,8 +1,12 @@
 import vk_api
 
+"""
+Displays the top users by posts in the group
+"""
+
 LOGIN = input("Input your login\n")
 PASSWORD = input("Input your password\n")
-OWNER_ID = input("Input owner id (negative)\n")
+OWNER_ID = input("Input group id (negative)\n")
 
 vk_session = vk_api.VkApi(LOGIN, PASSWORD)
 vk_session.auth()
