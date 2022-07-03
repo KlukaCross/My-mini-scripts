@@ -35,3 +35,9 @@ PATH: path to the directory with pictures (by default - the current directory)
 Displays the top users by posts in the group
 
 run: python3 top_vk_users.py
+
+# VkPostsParser
+Скачивает всю информацию о постах с группы, а также изображения, прикреплённые к ним. Изображения не скачиваются с постов, которые являются репостом.
+Все настройки находятся в config.json
+
+run: python3 VkPostsParser.py
