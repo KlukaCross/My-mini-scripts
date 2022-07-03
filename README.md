@@ -40,4 +40,4 @@ run: python3 top_vk_users.py
 Скачивает всю информацию о постах с группы, а также изображения, прикреплённые к ним. Изображения не скачиваются с постов, которые являются репостом.
 Все настройки находятся в config.json
 
-run: python3 VkPostsParser
+run: python3 VkPostsParser.py
